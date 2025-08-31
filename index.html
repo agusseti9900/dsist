@@ -668,31 +668,7 @@
             let labels, data;
             
             if (period === 'daily') {
-                labels = sampleData.daily.map(item => item.tanggal);
-                data = {
-                    ayam: sampleData.daily.map(item => item.ayam),
-                    nasi: sampleData.daily.map(item => item.nasi),
-                    kulit: sampleData.daily.map(item => item.kulit),
-                    geprek: sampleData.daily.map(item => item.geprek),
-                    saosBBQ: sampleData.daily.map(item => item.saosBBQ)
-                };
-            } else if (period === 'weekly') {
-                labels = sampleData.weekly.map(item => item.minggu);
-                data = {
-                    ayam: sampleData.weekly.map(item => item.ayam),
-                    nasi: sampleData.weekly.map(item => item.nasi),
-                    kulit: sampleData.weekly.map(item => item.kulit),
-                    geprek: sampleData.weekly.map(item => item.geprek),
-                    saosBBQ: sampleData.weekly.map(item => item.saosBBQ)
-                };
-            } else {
-                labels = sampleData.monthly.map(item => item.bulan);
-                data = {
-                    ayam: sampleData.monthly.map(item => item.ayam),
-                    nasi: sampleData.monthly.map(item => item.nasi),
-                    kulit: sampleData.monthly.map(item => item.kulit),
-                    geprek: sampleData.monthly.map(item => item.geprek),
-                    saosBBQ: sampleData.monthly.map(item => item.saosBBQ)
+                labels = 
                 };
             }
             
